@@ -1,0 +1,11 @@
+# conda env create -f environment.yml
+
+name: BSc_Student_Handbook  
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.14
+  - pip
+  - pip:
+    - -r requirements.txt  
